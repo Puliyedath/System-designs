@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-05T17:35:13.133Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="6uTOUaDGwmvALorD8KFo" version="24.4.13" type="github">
+<mxfile modified="2024-06-05T18:00:02.026Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="8Jyj8mY-pw7E6KzK1ir1" version="24.4.13" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -18,6 +18,24 @@
         </mxCell>
         <mxCell id="g5azbRm7W8uSLv8wW-Kg-5" value="Throttler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
           <mxGeometry x="20" y="10" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5azbRm7W8uSLv8wW-Kg-32" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
+          <mxGeometry x="46.6" y="160" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5azbRm7W8uSLv8wW-Kg-36" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
+          <mxGeometry x="20" y="130" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5azbRm7W8uSLv8wW-Kg-35" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
+          <mxGeometry x="73.20000000000005" y="130" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5azbRm7W8uSLv8wW-Kg-34" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
+          <mxGeometry x="20" y="70" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5azbRm7W8uSLv8wW-Kg-33" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
+          <mxGeometry x="73.20000000000005" y="70" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5azbRm7W8uSLv8wW-Kg-40" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
+          <mxGeometry x="46.60000000000002" y="40" width="16.8" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g5azbRm7W8uSLv8wW-Kg-6" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="230" width="140" height="260" as="geometry" />
@@ -114,6 +132,9 @@
             <mxPoint x="988" y="149" as="sourcePoint" />
             <mxPoint x="870" y="152" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="g5azbRm7W8uSLv8wW-Kg-41" value="check this for sorted sets:&amp;nbsp;https://engineering.classdojo.com/blog/2015/02/06/rolling-rate-limiter/&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="703" width="530" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
