@@ -1,140 +1,17 @@
-<mxfile modified="2024-06-05T18:00:02.026Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="8Jyj8mY-pw7E6KzK1ir1" version="24.4.13" type="github">
+<mxfile modified="2024-06-07T01:12:55.546Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0RLh8upQCRv8qxk3y6Lm" version="24.5.1" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1434" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-1" value="Design a Rate Limiter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="20" width="140" height="30" as="geometry" />
+        <mxCell id="8Gyj0lUYAWqYjL3MO5Vp-1" value="&lt;ul&gt;&lt;li&gt;CAP =&amp;gt; Partition tolerance , High Availability and Tunable consistency&lt;/li&gt;&lt;li&gt;Low latency&amp;nbsp;&lt;/li&gt;&lt;li&gt;Scalable&lt;/li&gt;&lt;li&gt;SIngle Server or distributed&lt;/li&gt;&lt;li&gt;K + value memory footprint&lt;/li&gt;&lt;li&gt;K + V = 4 KB,&amp;nbsp; I T keys trillion keys =&amp;gt; 4 TB&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="640" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-2" value="- Is this a client side or server side rate limiter ?&lt;div&gt;- Do we need to notify the user when they get throttled ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Does it handle rate limiting based on IPs or user ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Does it need to work in a distributed environment ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Distributed Rate limiting&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Fault tolerance =&amp;gt; if something happens to the rate limiter&lt;/div&gt;&lt;div&gt;&amp;nbsp;, it shouldn&#39;t effect the entire system&amp;nbsp;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="70" y="50" width="150" height="140" as="geometry" />
+        <mxCell id="8Gyj0lUYAWqYjL3MO5Vp-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-3" value="Browser/App" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="270" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-4" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="230" width="120" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-5" value="Throttler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
-          <mxGeometry x="20" y="10" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-32" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
-          <mxGeometry x="46.6" y="160" width="16.8" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-36" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
-          <mxGeometry x="20" y="130" width="16.8" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-35" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
-          <mxGeometry x="73.20000000000005" y="130" width="16.8" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-34" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
-          <mxGeometry x="20" y="70" width="16.8" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-33" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
-          <mxGeometry x="73.20000000000005" y="70" width="16.8" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-40" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-4">
-          <mxGeometry x="46.60000000000002" y="40" width="16.8" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-6" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="230" width="140" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-7" value="Application servers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-6">
-          <mxGeometry x="10" y="18" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-8" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-6">
-          <mxGeometry x="50" y="48" width="30" height="37.5" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-10" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-6">
-          <mxGeometry x="55" y="200" width="30" height="37.5" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-9" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-6">
-          <mxGeometry x="55" y="120" width="30" height="37.5" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g5azbRm7W8uSLv8wW-Kg-3" target="g5azbRm7W8uSLv8wW-Kg-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="330" as="sourcePoint" />
-            <mxPoint x="220" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.385;exitDx=0;exitDy=0;entryX=0;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="g5azbRm7W8uSLv8wW-Kg-4" target="g5azbRm7W8uSLv8wW-Kg-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="309.5" as="sourcePoint" />
-            <mxPoint x="771" y="309.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-14" value="200" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="270" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.435;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g5azbRm7W8uSLv8wW-Kg-4" target="g5azbRm7W8uSLv8wW-Kg-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="420" as="sourcePoint" />
-            <mxPoint x="750" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="250" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-16" value="429 / Supply a X-RetryAfter header to retry after n seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="468" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g5azbRm7W8uSLv8wW-Kg-4" target="g5azbRm7W8uSLv8wW-Kg-19">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="420" as="sourcePoint" />
-            <mxPoint x="560" y="570" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-19" value="&lt;div&gt;Rate limiting algorithms&lt;/div&gt;&lt;div&gt;- Token Bucket - Amazon and Skype uses this&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Leaking bucket - Shopify uses a queue&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Fixed Window Counter&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;t0 --- t1 -- - t2 ---&amp;nbsp; tn&amp;nbsp;&lt;br&gt;- Sliding Window Log&lt;/div&gt;&lt;div&gt;- combination of sliding window log and fixed window counter&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="485" y="502.5" width="150" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-20" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
-          <mxGeometry x="510" y="90" width="50" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.017;exitY=0.135;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="g5azbRm7W8uSLv8wW-Kg-4" target="g5azbRm7W8uSLv8wW-Kg-20">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="380" as="sourcePoint" />
-            <mxPoint x="750" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-22" value="Rules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="995" y="-3" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-23" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="670" y="18" width="20" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-24" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;domain: auth&lt;/div&gt;&lt;div&gt;message_type:&lt;/div&gt;&lt;div&gt;limit: {&lt;/div&gt;&lt;div&gt;unit:&lt;/div&gt;&lt;div&gt;requests:&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-3" width="150" height="153" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-25" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="980" y="80" width="150" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-26" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/cluster_server.svg;" vertex="1" parent="g5azbRm7W8uSLv8wW-Kg-25">
-          <mxGeometry x="45" y="40" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-27" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="800" y="110" width="60" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g5azbRm7W8uSLv8wW-Kg-4" target="g5azbRm7W8uSLv8wW-Kg-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="380" as="sourcePoint" />
-            <mxPoint x="750" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.013;exitY=0.369;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="g5azbRm7W8uSLv8wW-Kg-25" target="g5azbRm7W8uSLv8wW-Kg-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="290" as="sourcePoint" />
-            <mxPoint x="810" y="152" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g5azbRm7W8uSLv8wW-Kg-25" target="g5azbRm7W8uSLv8wW-Kg-22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="988" y="149" as="sourcePoint" />
-            <mxPoint x="870" y="152" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5azbRm7W8uSLv8wW-Kg-41" value="check this for sorted sets:&amp;nbsp;https://engineering.classdojo.com/blog/2015/02/06/rolling-rate-limiter/&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="25" y="703" width="530" height="40" as="geometry" />
+        <mxCell id="8Gyj0lUYAWqYjL3MO5Vp-3" value="hash(key) , value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8Gyj0lUYAWqYjL3MO5Vp-2">
+          <mxGeometry x="30" y="18" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
