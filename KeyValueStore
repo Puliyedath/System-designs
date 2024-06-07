@@ -1,18 +1,9 @@
-<mxfile modified="2024-06-07T01:12:55.546Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0RLh8upQCRv8qxk3y6Lm" version="24.5.1" type="github">
+<mxfile modified="2024-06-07T18:08:09.826Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Rczx5vy56N83DrBzdARY" version="24.5.1" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8Gyj0lUYAWqYjL3MO5Vp-1" value="&lt;ul&gt;&lt;li&gt;CAP =&amp;gt; Partition tolerance , High Availability and Tunable consistency&lt;/li&gt;&lt;li&gt;Low latency&amp;nbsp;&lt;/li&gt;&lt;li&gt;Scalable&lt;/li&gt;&lt;li&gt;SIngle Server or distributed&lt;/li&gt;&lt;li&gt;K + value memory footprint&lt;/li&gt;&lt;li&gt;K + V = 4 KB,&amp;nbsp; I T keys trillion keys =&amp;gt; 4 TB&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="40" y="10" width="640" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="8Gyj0lUYAWqYjL3MO5Vp-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="250" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="8Gyj0lUYAWqYjL3MO5Vp-3" value="hash(key) , value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8Gyj0lUYAWqYjL3MO5Vp-2">
-          <mxGeometry x="30" y="18" width="110" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
