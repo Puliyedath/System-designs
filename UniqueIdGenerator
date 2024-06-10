@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-10T17:51:13.749Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="d84NejaqA5TxUPiAZ0t7" version="24.5.2" type="github">
+<mxfile modified="2024-06-10T18:04:49.617Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DXtbK6-TUHNsngnA4alO" version="24.5.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
             <mxPoint x="750" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ojcmlVFGGLW4lHHyD_7X-16" value="Single ID generating server&lt;div&gt;- auto increments feature&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-16" value="&lt;div&gt;UUID = 128 bit number , IDs may not be numberic and don&#39;t have a dependence on time&lt;/div&gt;&lt;div&gt;twitter snow flake approach&lt;/div&gt;&lt;div&gt;&amp;nbsp;- 64&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- n bits for time 41 bits =&amp;gt; 2 ^41 ~ 80 years&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 1 bit for signed and unsigned numbers&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;24 bits&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- n bits for data center (5) =&amp;gt; 32 datacenters&lt;/div&gt;&lt;div&gt;&amp;nbsp; - n bits for machine id (ip ) within the datacenter (5) =&amp;gt; 32 unique machines within a datacenter&lt;/div&gt;&lt;div&gt;&amp;nbsp; - n bits for sequence 12&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="580" width="560" height="290" as="geometry" />
         </mxCell>
         <mxCell id="ojcmlVFGGLW4lHHyD_7X-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.191;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ojcmlVFGGLW4lHHyD_7X-4" target="ojcmlVFGGLW4lHHyD_7X-16">
