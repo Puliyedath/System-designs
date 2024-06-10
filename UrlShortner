@@ -1,9 +1,64 @@
-<mxfile modified="2024-06-10T18:10:48.045Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qhBF4FW5YeeO9bwSjCjp" version="24.5.2" type="github">
+<mxfile modified="2024-06-10T19:09:00.234Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="a7WvWo8qFIPzfVae0af2" version="24.5.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d-KN7tGyLEbAeegnGD15-1" value="Functional requirements:&lt;div&gt;- given a url =&amp;gt; returns a tiny url&lt;/div&gt;&lt;div&gt;- does the url length need to be a constant ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Yes address both&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- No address both&lt;/div&gt;&lt;div&gt;- is it possible for the url to include non ascii characters ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;- is it possible to delete existing tiny url ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;- deduplication of urls&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Non - Functional reqs:&lt;/div&gt;&lt;div&gt;- High Availability&lt;/div&gt;&lt;div&gt;- low latency&amp;nbsp;&lt;/div&gt;&lt;div&gt;- horizontally scalable&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Storage requirements : back of the envelope calculations&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-1 url takes up 10 KB data&lt;/div&gt;&lt;div&gt;- 1 Billion requests coming in daily&lt;/div&gt;&lt;div&gt;- 10, 000 GB of storage on a daily bases&lt;/div&gt;&lt;div&gt;- in a year = 3650, 000 GB =&amp;gt; 3650 TB of data that we need to provision&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="600" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-KN7tGyLEbAeegnGD15-3" target="d-KN7tGyLEbAeegnGD15-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-KN7tGyLEbAeegnGD15-4" target="d-KN7tGyLEbAeegnGD15-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-KN7tGyLEbAeegnGD15-4" target="d-KN7tGyLEbAeegnGD15-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-4" value="web servers" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;shadow=0;dashed=0;spacingTop=3;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="320" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.192;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d-KN7tGyLEbAeegnGD15-6" target="d-KN7tGyLEbAeegnGD15-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="387.5" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-6" value="Url Shortner component" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;shadow=0;dashed=0;spacingTop=3;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="d-KN7tGyLEbAeegnGD15-6" target="d-KN7tGyLEbAeegnGD15-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-KN7tGyLEbAeegnGD15-12" target="d-KN7tGyLEbAeegnGD15-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-12" value="Url db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-15" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="173.5" y="364" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-16" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="173.5" y="440" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-17" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="173.5" y="530" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-18" value="Table/Mapping:&lt;div&gt;unique_id | input_url | tiny_url&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-22" value="url length:&lt;div&gt;- not a constant&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="520" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d-KN7tGyLEbAeegnGD15-23" value="API&lt;div&gt;GET /vi/shortUrl&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;shadow=0;dashed=0;spacingTop=3;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
