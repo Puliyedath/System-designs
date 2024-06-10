@@ -1,10 +1,10 @@
-<mxfile modified="2024-06-10T17:33:03.257Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rVBk86lfYWvq5bqg1V5C" version="24.5.2" type="github">
+<mxfile modified="2024-06-10T17:37:07.031Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mK4mpzaKlx_hZfEmak00" version="24.5.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ojcmlVFGGLW4lHHyD_7X-1" value="Functional requirements" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-1" value="Functional requirements&lt;div&gt;- unique id in a distributed systems&lt;/div&gt;&lt;div&gt;- does the length of the generated id be constant ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - what should be the length of the id (it should fit in 64 bit)&lt;/div&gt;&lt;div&gt;- is the generic id sortable&amp;nbsp; ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;- increment by 1 , primary key in some kind of relational database&amp;nbsp;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="20" width="540" height="470" as="geometry" />
         </mxCell>
       </root>
