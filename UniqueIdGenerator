@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-10T18:04:49.617Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DXtbK6-TUHNsngnA4alO" version="24.5.2" type="github">
+<mxfile modified="2024-06-10T18:09:12.171Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Dg0AeYgLD1YH2kqBEDoG" version="24.5.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -12,6 +12,21 @@
         </mxCell>
         <mxCell id="ojcmlVFGGLW4lHHyD_7X-6" value="ID Generator component" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ojcmlVFGGLW4lHHyD_7X-4">
           <mxGeometry x="30" y="10" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-27" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="ojcmlVFGGLW4lHHyD_7X-4">
+          <mxGeometry x="30" y="55" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-30" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="ojcmlVFGGLW4lHHyD_7X-4">
+          <mxGeometry x="151" y="50" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-29" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="ojcmlVFGGLW4lHHyD_7X-4">
+          <mxGeometry x="86" y="50" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-28" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="ojcmlVFGGLW4lHHyD_7X-4">
+          <mxGeometry x="30" y="124" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-31" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="ojcmlVFGGLW4lHHyD_7X-4">
+          <mxGeometry x="86" y="124" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ojcmlVFGGLW4lHHyD_7X-8" value="Generated unique ids" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="880" y="290" width="60" height="80" as="geometry" />
@@ -37,7 +52,7 @@
             <mxPoint x="750" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ojcmlVFGGLW4lHHyD_7X-16" value="&lt;div&gt;UUID = 128 bit number , IDs may not be numberic and don&#39;t have a dependence on time&lt;/div&gt;&lt;div&gt;twitter snow flake approach&lt;/div&gt;&lt;div&gt;&amp;nbsp;- 64&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- n bits for time 41 bits =&amp;gt; 2 ^41 ~ 80 years&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 1 bit for signed and unsigned numbers&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;24 bits&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- n bits for data center (5) =&amp;gt; 32 datacenters&lt;/div&gt;&lt;div&gt;&amp;nbsp; - n bits for machine id (ip ) within the datacenter (5) =&amp;gt; 32 unique machines within a datacenter&lt;/div&gt;&lt;div&gt;&amp;nbsp; - n bits for sequence 12&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-16" value="&lt;div&gt;UUID = 128 bit number , IDs may not be numberic and don&#39;t have a dependence on time&lt;/div&gt;&lt;div&gt;twitter snow flake approach&lt;/div&gt;&lt;div&gt;&amp;nbsp;- 64&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- n bits for time 41 bits =&amp;gt; 2 ^41 ~ 80 years&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 1 bit for signed and unsigned numbers&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;24 bits&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- n bits for data center (5) =&amp;gt; 32 datacenters&lt;/div&gt;&lt;div&gt;&amp;nbsp; - n bits for machine id (ip ) within the datacenter (5) =&amp;gt; 32 unique machines within a datacenter&lt;/div&gt;&lt;div&gt;&amp;nbsp; - n bits for sequence 12&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;settle on a epoch = todays date = t&amp;nbsp;&lt;/div&gt;&lt;div&gt;milli seconds post t&amp;nbsp;&lt;/div&gt;&lt;div&gt;add t to it and then convert it to UTC&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="580" width="560" height="290" as="geometry" />
         </mxCell>
         <mxCell id="ojcmlVFGGLW4lHHyD_7X-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.191;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ojcmlVFGGLW4lHHyD_7X-4" target="ojcmlVFGGLW4lHHyD_7X-16">
@@ -75,6 +90,12 @@
             <mxPoint x="290" y="375" as="sourcePoint" />
             <mxPoint x="449" y="407" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-33" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.input_output_filter;" vertex="1" parent="1">
+          <mxGeometry x="750" y="340" width="43" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ojcmlVFGGLW4lHHyD_7X-34" value="Bloom filter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
