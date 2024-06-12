@@ -1,11 +1,80 @@
-<mxfile modified="2024-06-12T17:45:39.728Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jqUCoVM-Mt_x7oZhXdGh" version="24.5.2" type="github">
+<mxfile modified="2024-06-12T18:32:07.453Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="OFszshCcLNT75W0nK9Jm" version="24.5.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yjgZgNEdIds4qQPqvoW2-1" value="Purpose of web crawler" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="30" width="710" height="120" as="geometry" />
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-1" value="Functional&lt;div&gt;- Search Indexing&lt;/div&gt;&lt;div&gt;- Ingest HTML , jpegs etc&lt;/div&gt;&lt;div&gt;- New contents should be ingested as fast as possible&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- dedup contents (if multiple urls point to the same page)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- handle server crashes or malicious links&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Non-Functional&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;be polite (don&#39;t make too many requests to the same domain)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;crawler should be run on a scheduled basis&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- extensible in case we want to download new type of content in the future&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Envelope requirements:&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- 1 Billion pages&lt;/div&gt;&lt;div&gt;- i page size = 500KB&lt;/div&gt;&lt;div&gt;- QPS = 1B / 30 * 24 * 3600 (10 00 / 2) 500 QPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;- peak qps = 1000 QPS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 500 B KB =&amp;gt; 500 TB * 12 =&amp;gt; 6PB * 5 =&amp;gt; 30 PB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" width="410" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-2" value="seed url&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="yjgZgNEdIds4qQPqvoW2-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-5" target="yjgZgNEdIds4qQPqvoW2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-5" target="yjgZgNEdIds4qQPqvoW2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-5" value="Html Downloader" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-7" value="DNS Resolver" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-9" target="yjgZgNEdIds4qQPqvoW2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-9" value="Content Extractor" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-11" target="yjgZgNEdIds4qQPqvoW2-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-11" target="yjgZgNEdIds4qQPqvoW2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-11" value="Content Seen Filter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-15" value="Content DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="900" y="80" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-16" target="yjgZgNEdIds4qQPqvoW2-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-16" value="Link Extractor" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-18" value="Link DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="900" y="580" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-18" target="yjgZgNEdIds4qQPqvoW2-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="420" as="sourcePoint" />
+            <mxPoint x="610" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-21" value="Url Frontier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yjgZgNEdIds4qQPqvoW2-22" target="yjgZgNEdIds4qQPqvoW2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjgZgNEdIds4qQPqvoW2-22" value="Link Seen" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
