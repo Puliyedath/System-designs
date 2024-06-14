@@ -1,10 +1,10 @@
-<mxfile modified="2024-06-14T22:39:41.651Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="y_J5V7hYb9CzHPkTl6aP" version="24.5.4" type="github">
+<mxfile modified="2024-06-14T22:43:15.284Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jK30nG2Z9uTfD05eTziz" version="24.5.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LRIei21aIemlV6c6WH5p-1" value="Requirements:&lt;div&gt;&amp;nbsp;- Notification system for user engagement ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Push notifications + SMS + email&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Scheduled + Client triggered&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Soft Real time time =&amp;gt; if the servers are under load , they could be delays in the notifcation&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Atmost once or atleast once:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;=&amp;gt; Atmost once would mean we would deliver it once or 0 times (not deliver it at all)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;=&amp;gt; atleast once would be we might deliver it 1 or more times&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- No notification should be lost&lt;/div&gt;&lt;div&gt;- dedupe the messages&lt;/div&gt;&lt;div&gt;- user should be able to opt out of the system&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Back of the envelope calculations:&lt;/div&gt;&lt;div&gt;- 1 million sms, 10 million push notifications&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 2 years&amp;nbsp;&lt;/div&gt;&lt;div&gt;- lets say one notification (SMS) is 1 KB =&amp;gt; 1 M (1KB) =&amp;gt; 1000MB * 730 = 730 GB&lt;/div&gt;&lt;div&gt;API:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;POST /api/v1/notification/send&amp;nbsp;&lt;/div&gt;&lt;div&gt;from : user_id&lt;/div&gt;&lt;div&gt;to : email / phonenumber&lt;/div&gt;&lt;div&gt;type: enum (SMS/TEXT/EMAIL)&lt;/div&gt;&lt;div&gt;template_id: mapping within our system from template_id =&amp;gt; template&lt;/div&gt;&lt;div&gt;body: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {{variable}}: {{ values }}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="LRIei21aIemlV6c6WH5p-1" value="Requirements:&lt;div&gt;&amp;nbsp;- Notification system for user engagement ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Push notifications + SMS + email&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Scheduled + Client triggered&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Soft Real time time =&amp;gt; if the servers are under load , they could be delays in the notifcation&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Atmost once or atleast once:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;=&amp;gt; Atmost once would mean we would deliver it once or 0 times (not deliver it at all)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;=&amp;gt; atleast once would be we might deliver it 1 or more times&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- No notification should be lost&lt;/div&gt;&lt;div&gt;- dedupe the messages&lt;/div&gt;&lt;div&gt;- user should be able to opt out of the system&amp;nbsp;&lt;/div&gt;&lt;div&gt;- tracking&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Back of the envelope calculations:&lt;/div&gt;&lt;div&gt;- 1 million sms, 10 million push notifications&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 2 years&amp;nbsp;&lt;/div&gt;&lt;div&gt;- lets say one notification (SMS) is 1 KB =&amp;gt; 1 M (1KB) =&amp;gt; 1000MB * 730 = 730 GB&lt;/div&gt;&lt;div&gt;API:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;POST /api/v1/notification/send&amp;nbsp;&lt;/div&gt;&lt;div&gt;from : user_id&lt;/div&gt;&lt;div&gt;to : email / phonenumber&lt;/div&gt;&lt;div&gt;type: enum (SMS/TEXT/EMAIL)&lt;/div&gt;&lt;div&gt;template_id: mapping within our system from template_id =&amp;gt; template&lt;/div&gt;&lt;div&gt;body: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {{variable}}: {{ values }}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="20" y="-160" width="360" height="230" as="geometry" />
         </mxCell>
         <mxCell id="LRIei21aIemlV6c6WH5p-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LRIei21aIemlV6c6WH5p-2" target="LRIei21aIemlV6c6WH5p-6">
@@ -196,6 +196,37 @@
               <mxPoint x="1090" y="600" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LRIei21aIemlV6c6WH5p-59" value="Analytics Service&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LRIei21aIemlV6c6WH5p-60" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.578;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LRIei21aIemlV6c6WH5p-6" target="LRIei21aIemlV6c6WH5p-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="295" as="sourcePoint" />
+            <mxPoint x="420" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRIei21aIemlV6c6WH5p-61" value="sent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LRIei21aIemlV6c6WH5p-60">
+          <mxGeometry x="-0.1163" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRIei21aIemlV6c6WH5p-62" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LRIei21aIemlV6c6WH5p-10" target="LRIei21aIemlV6c6WH5p-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332" y="407" as="sourcePoint" />
+            <mxPoint x="540" y="115" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRIei21aIemlV6c6WH5p-63" value="opened" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LRIei21aIemlV6c6WH5p-62">
+          <mxGeometry x="-0.1163" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRIei21aIemlV6c6WH5p-64" value="Rate limiter per user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="481.35" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
