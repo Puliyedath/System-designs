@@ -1,9 +1,12 @@
-<mxfile modified="2024-06-14T22:08:04.733Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="gW7hNZFWBMONzUE6wMJI" version="24.5.4" type="github">
+<mxfile modified="2024-06-14T22:09:59.834Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vY5WOLaV7BZPrpuUVzrC" version="24.5.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LRIei21aIemlV6c6WH5p-1" value="Requirements:&lt;div&gt;&amp;nbsp;- Notification system for user engagement ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Push notifications + SMS + email&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Scheduled + Client triggered&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Real time&amp;nbsp;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" width="480" height="470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
