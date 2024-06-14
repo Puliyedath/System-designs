@@ -1,40 +1,99 @@
-<mxfile modified="2024-06-14T00:48:29.460Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ukmYUaOliOW_ssVidoAd" version="24.5.4" type="github">
+<mxfile modified="2024-06-14T01:02:09.662Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qaEKrsKh0GzSmwE2hzLN" version="24.5.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WKAqsbVvUvv8x_nvnOOh-1" value="- What kind of notifications are we talking about&amp;nbsp;&lt;div&gt;&amp;nbsp; mobile , sms and emails.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Is this a real time system (soft delay is fine =&amp;gt; meaning if the servers are under heavy loads)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="20" width="380" height="130" as="geometry" />
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-1" value="- What kind of notifications are we talking about&amp;nbsp;&lt;div&gt;&amp;nbsp; mobile , sms and emails.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Is this a real time system (soft delay is fine =&amp;gt; meaning if the servers are under heavy loads)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- number of notifications being sent on a daily basis&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;10 m push notifications&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 1 m sms&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 1 m emails&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- can the users opt out of this ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;- are the messages just enqued from the server side or any client app can trigger a notification ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="380" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="WKAqsbVvUvv8x_nvnOOh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WKAqsbVvUvv8x_nvnOOh-2" target="WKAqsbVvUvv8x_nvnOOh-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKAqsbVvUvv8x_nvnOOh-2" target="WKAqsbVvUvv8x_nvnOOh-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529.5" y="390.79999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WKAqsbVvUvv8x_nvnOOh-2" value="Notification System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WKAqsbVvUvv8x_nvnOOh-3" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="150" width="170" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="WKAqsbVvUvv8x_nvnOOh-5" value="Email&#xa;notification" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.email_notification;" vertex="1" parent="1">
-          <mxGeometry x="595" y="490" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WKAqsbVvUvv8x_nvnOOh-6" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
-          <mxGeometry x="560" y="180" width="120" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="WKAqsbVvUvv8x_nvnOOh-7" value="Push&#xa;Notification&#xa;Service" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.push_notification_service;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" vertex="1" parent="WKAqsbVvUvv8x_nvnOOh-6">
-          <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
-            <mxPoint x="5" y="-16" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WKAqsbVvUvv8x_nvnOOh-8" value="Twilio" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.sms_gateway;" vertex="1" parent="1">
-          <mxGeometry x="585" y="371.5" width="59" height="37" as="geometry" />
         </mxCell>
         <mxCell id="WKAqsbVvUvv8x_nvnOOh-9" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/VOIP_IP_phone.svg;" vertex="1" parent="1">
           <mxGeometry x="870" y="368" width="30" height="45.6" as="geometry" />
         </mxCell>
         <mxCell id="WKAqsbVvUvv8x_nvnOOh-10" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.phone_android" vertex="1" parent="1">
-          <mxGeometry x="860" y="223.57" width="26" height="46.43" as="geometry" />
+          <mxGeometry x="870" y="184.79" width="26" height="46.43" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-15" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="90" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-16" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="WKAqsbVvUvv8x_nvnOOh-15">
+          <mxGeometry x="31" y="21.5" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-17" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="WKAqsbVvUvv8x_nvnOOh-15">
+          <mxGeometry x="31" y="130" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.978;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.017;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKAqsbVvUvv8x_nvnOOh-15" target="WKAqsbVvUvv8x_nvnOOh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="420" as="sourcePoint" />
+            <mxPoint x="610" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-19" value="User table" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-20" value="id | email | phone_number | address" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WKAqsbVvUvv8x_nvnOOh-19">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-23" value="user_device table" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="670" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-24" value="id| user_id | device_token" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WKAqsbVvUvv8x_nvnOOh-23">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-25" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="140" width="170" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-26" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="780.5" y="169.2" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-27" value="Push&#xa;Notification&#xa;Service" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.push_notification_service;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" vertex="1" parent="WKAqsbVvUvv8x_nvnOOh-26">
+          <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
+            <mxPoint x="5" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-28" value="Twilio" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.sms_gateway;" vertex="1" parent="1">
+          <mxGeometry x="805.5" y="360.7" width="59" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-29" value="Email&#xa;notification" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.email_notification;" vertex="1" parent="1">
+          <mxGeometry x="815.5" y="479.2" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="WKAqsbVvUvv8x_nvnOOh-29" target="WKAqsbVvUvv8x_nvnOOh-35" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780.5" y="409.2" as="sourcePoint" />
+            <mxPoint x="830.5" y="359.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.1;entryY=0.482;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="WKAqsbVvUvv8x_nvnOOh-28" target="WKAqsbVvUvv8x_nvnOOh-33" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="885.5" y="519.2" as="sourcePoint" />
+            <mxPoint x="1090.5" y="519.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" source="WKAqsbVvUvv8x_nvnOOh-26" target="WKAqsbVvUvv8x_nvnOOh-34" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="895.5" y="529.2" as="sourcePoint" />
+            <mxPoint x="1100.5" y="529.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-33" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/VOIP_IP_phone.svg;" vertex="1" parent="1">
+          <mxGeometry x="1090.5" y="357.2" width="30" height="45.6" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-34" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.phone_android" vertex="1" parent="1">
+          <mxGeometry x="1090.5" y="173.98999999999998" width="26" height="46.43" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-35" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="1080.5" y="489.2" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WKAqsbVvUvv8x_nvnOOh-36" value="3 problems with single notification system&lt;div&gt;1. SPOF&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Resource intensive since it has to parse html and wait of responses from the notification services&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="10" width="550" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
