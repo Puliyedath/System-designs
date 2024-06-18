@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-18T19:55:27.267Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="P1nXBzfM_ZxKj_SaAzon" version="24.5.4" type="github">
+<mxfile modified="2024-06-18T20:03:31.701Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dG-41UhNkvRh8Uh9jkIQ" version="24.5.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -80,8 +80,45 @@
         <mxCell id="mZ9YtXw3Hotvv6fxCPpN-25" value="Object Storage" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="81.1" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-29" target="mZ9YtXw3Hotvv6fxCPpN-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-41" value="friends_list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mZ9YtXw3Hotvv6fxCPpN-37">
+          <mxGeometry x="0.36" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-29" target="mZ9YtXw3Hotvv6fxCPpN-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-42" value="user_setting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mZ9YtXw3Hotvv6fxCPpN-39">
+          <mxGeometry x="0.3234" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-29" target="mZ9YtXw3Hotvv6fxCPpN-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mZ9YtXw3Hotvv6fxCPpN-29" value="Fanout Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="647.5" y="410" width="125" height="60" as="geometry" />
+          <mxGeometry x="647.5" y="430" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-36" value="Friends DB(graph DB)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="380" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-38" value="User DB(Relational DB" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="468.25" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-40" value="(user_id, post_id)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="358" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-43" target="mZ9YtXw3Hotvv6fxCPpN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-43" value="user, post cache" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-45" value="Relational DB" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="720" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
