@@ -1,11 +1,11 @@
-<mxfile modified="2024-06-18T19:33:10.784Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xSwAlAJNEqp-GWqkBWSM" version="24.5.4" type="github">
+<mxfile modified="2024-06-18T19:43:34.313Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QJvvInrPRPSTe1bH8Shs" version="24.5.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-1" value="Functional Requirements&lt;div&gt;- user should be able to publish a post&lt;/div&gt;&lt;div&gt;- friends should be able to view the post&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="40" width="250" height="470" as="geometry" />
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-1" value="Functional Requirements&lt;div&gt;- user should be able to publish a post&lt;/div&gt;&lt;div&gt;- user should be able to view a feed that includes post from friends&lt;/div&gt;&lt;div&gt;- post should be sorted based on some priority / time&lt;/div&gt;&lt;div&gt;- post include text or other media&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Non-functional requirements&lt;/div&gt;&lt;div&gt;- soft real time&amp;nbsp;&lt;/div&gt;&lt;div&gt;- low latency&amp;nbsp;&lt;/div&gt;&lt;div&gt;- HA, FT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Storage requirements&lt;/div&gt;&lt;div&gt;- DAU - 2 milllion&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 50 % posts daily&amp;nbsp;&lt;/div&gt;&lt;div&gt;- average size of a post = 100 KB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 1 M * 100 KB = 100GB =&amp;gt; daily storage&lt;/div&gt;&lt;div&gt;100 * 365 * 2 = 73 TB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;QPS = 1&amp;nbsp;&lt;/div&gt;&lt;div&gt;Peak = 2 qps&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assuming the read and writes are pretty evenly balanced&amp;nbsp;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="250" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
