@@ -1,11 +1,11 @@
-<mxfile modified="2024-06-18T20:06:50.140Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="wS4aRLgC6FWuJTTJnt1R" version="24.5.4" type="github">
+<mxfile modified="2024-06-18T20:14:15.314Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="7Xqck8nkuNDpRK7Je2xc" version="24.5.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mZ9YtXw3Hotvv6fxCPpN-1" value="Functional Requirements&lt;div&gt;- user should be able to publish a post&lt;/div&gt;&lt;div&gt;- user should be able to view a feed that includes post from friends&lt;/div&gt;&lt;div&gt;- post should be sorted based on some priority / time&lt;/div&gt;&lt;div&gt;- post include text or other media&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Non-functional requirements&lt;/div&gt;&lt;div&gt;- soft real time&amp;nbsp;&lt;/div&gt;&lt;div&gt;- low latency&amp;nbsp;&lt;/div&gt;&lt;div&gt;- HA, FT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Storage requirements&lt;/div&gt;&lt;div&gt;- DAU - 2 milllion&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 50 % posts daily&amp;nbsp;&lt;/div&gt;&lt;div&gt;- average size of a post = 100 KB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 1 M * 100 KB = 100GB =&amp;gt; daily storage&lt;/div&gt;&lt;div&gt;100 * 365 * 2 = 73 TB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;QPS = 1&amp;nbsp;&lt;/div&gt;&lt;div&gt;Peak = 2 qps&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assuming the read and writes are pretty evenly balanced&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;API: (post_add api)&lt;/div&gt;&lt;div&gt;POST /api/v1/me/feed&lt;/div&gt;&lt;div&gt;auth_token&amp;nbsp;&lt;/div&gt;&lt;div&gt;content : json blob&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET /api/v1/me/feed&lt;/div&gt;&lt;div&gt;auth_token&lt;/div&gt;&lt;div&gt;page_size&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ordered set of feeds&lt;/div&gt;&lt;div&gt;next_page : link&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;POST /api/v1/me/upload (file_upload_api)&lt;/div&gt;&lt;div&gt;auth_token&lt;/div&gt;&lt;div&gt;content: multipart/form-data&lt;/div&gt;&lt;div&gt;path_file:&amp;nbsp;&lt;/div&gt;&lt;div&gt;10,000&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;imageAspect=1;noLabel=0;container=0;collapsible=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="10" width="250" height="630" as="geometry" />
+          <mxGeometry x="10" y="760" width="250" height="630" as="geometry" />
         </mxCell>
         <mxCell id="mZ9YtXw3Hotvv6fxCPpN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-2" target="mZ9YtXw3Hotvv6fxCPpN-5">
           <mxGeometry relative="1" as="geometry" />
@@ -126,6 +126,15 @@
         <mxCell id="mZ9YtXw3Hotvv6fxCPpN-45" value="Relational DB" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="720" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-52" target="mZ9YtXw3Hotvv6fxCPpN-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="315" />
+              <mxPoint x="1190" y="248" />
+              <mxPoint x="1170" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mZ9YtXw3Hotvv6fxCPpN-52" value="Feed Service" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="285" width="120" height="60" as="geometry" />
         </mxCell>
@@ -163,6 +172,46 @@
         </mxCell>
         <mxCell id="mZ9YtXw3Hotvv6fxCPpN-57" value="CDN" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="419.25" y="27.389999999999993" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-60" target="mZ9YtXw3Hotvv6fxCPpN-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-60" value="Action Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="150.00000000000003" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-9" target="mZ9YtXw3Hotvv6fxCPpN-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="470" as="sourcePoint" />
+            <mxPoint x="610" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-63" value="Actions table&lt;div&gt;post_id, action_enum, user_id&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="150.00000000000003" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-65" target="mZ9YtXw3Hotvv6fxCPpN-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-65" value="Action counter Cron job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-66" value="actions_num_table&lt;div&gt;post_id, action_enum, counter&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-65" target="mZ9YtXw3Hotvv6fxCPpN-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="90" as="sourcePoint" />
+            <mxPoint x="1040" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-52" target="mZ9YtXw3Hotvv6fxCPpN-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="325" as="sourcePoint" />
+            <mxPoint x="1180" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="325" />
+              <mxPoint x="1360" y="325" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
