@@ -1,11 +1,41 @@
-<mxfile modified="2024-06-18T19:43:34.313Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QJvvInrPRPSTe1bH8Shs" version="24.5.4" type="github">
+<mxfile modified="2024-06-18T19:48:00.718Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mRW-IWy_cgNadwBikDsX" version="24.5.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-1" value="Functional Requirements&lt;div&gt;- user should be able to publish a post&lt;/div&gt;&lt;div&gt;- user should be able to view a feed that includes post from friends&lt;/div&gt;&lt;div&gt;- post should be sorted based on some priority / time&lt;/div&gt;&lt;div&gt;- post include text or other media&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Non-functional requirements&lt;/div&gt;&lt;div&gt;- soft real time&amp;nbsp;&lt;/div&gt;&lt;div&gt;- low latency&amp;nbsp;&lt;/div&gt;&lt;div&gt;- HA, FT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Storage requirements&lt;/div&gt;&lt;div&gt;- DAU - 2 milllion&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 50 % posts daily&amp;nbsp;&lt;/div&gt;&lt;div&gt;- average size of a post = 100 KB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 1 M * 100 KB = 100GB =&amp;gt; daily storage&lt;/div&gt;&lt;div&gt;100 * 365 * 2 = 73 TB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;QPS = 1&amp;nbsp;&lt;/div&gt;&lt;div&gt;Peak = 2 qps&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assuming the read and writes are pretty evenly balanced&amp;nbsp;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="40" width="250" height="210" as="geometry" />
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-1" value="Functional Requirements&lt;div&gt;- user should be able to publish a post&lt;/div&gt;&lt;div&gt;- user should be able to view a feed that includes post from friends&lt;/div&gt;&lt;div&gt;- post should be sorted based on some priority / time&lt;/div&gt;&lt;div&gt;- post include text or other media&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Non-functional requirements&lt;/div&gt;&lt;div&gt;- soft real time&amp;nbsp;&lt;/div&gt;&lt;div&gt;- low latency&amp;nbsp;&lt;/div&gt;&lt;div&gt;- HA, FT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Storage requirements&lt;/div&gt;&lt;div&gt;- DAU - 2 milllion&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 50 % posts daily&amp;nbsp;&lt;/div&gt;&lt;div&gt;- average size of a post = 100 KB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 1 M * 100 KB = 100GB =&amp;gt; daily storage&lt;/div&gt;&lt;div&gt;100 * 365 * 2 = 73 TB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;QPS = 1&amp;nbsp;&lt;/div&gt;&lt;div&gt;Peak = 2 qps&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assuming the read and writes are pretty evenly balanced&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;API:&lt;/div&gt;&lt;div&gt;POST /api/v1/me/feed&lt;/div&gt;&lt;div&gt;auth_token&amp;nbsp;&lt;/div&gt;&lt;div&gt;content : json blob&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET /api/v1/me/feed&lt;/div&gt;&lt;div&gt;auth_token&lt;/div&gt;&lt;div&gt;page_size&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ordered set of feeds&lt;/div&gt;&lt;div&gt;next_page : link&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;imageAspect=1;noLabel=0;container=0;collapsible=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="250" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-2" target="mZ9YtXw3Hotvv6fxCPpN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="40.89" width="20.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="730" y="46.11" width="25" height="27.78" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mZ9YtXw3Hotvv6fxCPpN-5" target="mZ9YtXw3Hotvv6fxCPpN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-5" value="Load Balancer (IGN)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="270" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-11" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="296.09" width="30.25" height="37.81" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-13" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="694.88" y="296.09999999999997" width="30.25" height="37.81" as="geometry" />
+        </mxCell>
+        <mxCell id="mZ9YtXw3Hotvv6fxCPpN-14" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="754.75" y="296.09999999999997" width="30.25" height="37.81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
