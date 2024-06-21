@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-21T05:49:51.392Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="nuA1_DG3uWTpGr2U4Ujb" version="24.5.5" type="github">
+<mxfile modified="2024-06-21T05:51:10.271Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DC_OnF19MXOrp5xxmzZB" version="24.5.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -96,12 +96,6 @@
         <mxCell id="b5WYFroy9qsvkCAB5OgG-52" value="Messages DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="910" y="55" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-55" value="user db" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="510" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-56" value="id | phone | email | device_token" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="b5WYFroy9qsvkCAB5OgG-55">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-57" value="1-1 messages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="65" width="140" height="60" as="geometry" />
         </mxCell>
@@ -123,14 +117,26 @@
         <mxCell id="b5WYFroy9qsvkCAB5OgG-63" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
           <mxGeometry x="950" y="455" width="150" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="954.74" y="552.64" as="sourcePoint" />
+            <mxPoint x="770.0009903369994" y="220.00067977499805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-66" target="b5WYFroy9qsvkCAB5OgG-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-66" value="Message Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="965" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-72" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-66" target="b5WYFroy9qsvkCAB5OgG-37">
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-72" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-66" target="b5WYFroy9qsvkCAB5OgG-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="430" as="sourcePoint" />
             <mxPoint x="610" y="380" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-75" value="Notification Service" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
