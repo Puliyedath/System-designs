@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-21T06:03:54.280Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Xx-yuCn8BeSZL5q3NXy0" version="24.5.5" type="github">
+<mxfile modified="2024-06-21T06:05:01.672Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cyQcxlyI1xTY8JRaOxCy" version="24.5.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -157,6 +157,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-105" value="offline" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b5WYFroy9qsvkCAB5OgG-86">
+          <mxGeometry x="-0.6214" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-81" value="Group Message Handler Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1169" y="530" width="120" height="60" as="geometry" />
         </mxCell>
@@ -176,6 +181,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-88" target="b5WYFroy9qsvkCAB5OgG-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="60" />
+              <mxPoint x="1240" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-88" target="b5WYFroy9qsvkCAB5OgG-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="90" />
+              <mxPoint x="1380" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-88" value="Chat Servers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="150" width="260" height="60" as="geometry" />
         </mxCell>
@@ -185,6 +206,11 @@
               <mxPoint x="1230" y="290" />
               <mxPoint x="905" y="290" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-106" value="online" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b5WYFroy9qsvkCAB5OgG-90">
+          <mxGeometry x="-0.6469" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-91" target="b5WYFroy9qsvkCAB5OgG-94">
@@ -208,10 +234,10 @@
         <mxCell id="b5WYFroy9qsvkCAB5OgG-99" value="User 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-103" value="User 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-103" value="User 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-104" value="User 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-104" value="User 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1320" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
