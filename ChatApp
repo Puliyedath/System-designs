@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-21T05:18:30.231Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qiHR55UT_AOOXCtpfXC7" version="24.5.5" type="github">
+<mxfile modified="2024-06-21T05:36:04.331Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="lmfCgerMK-tNcfMlEyFW" version="24.5.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -22,11 +22,35 @@
         <mxCell id="b5WYFroy9qsvkCAB5OgG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-5" target="b5WYFroy9qsvkCAB5OgG-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-5" target="b5WYFroy9qsvkCAB5OgG-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-5" value="Web servers" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="320" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-9" value="User DB&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="510" y="650" width="60" height="80" as="geometry" />
+          <mxGeometry x="510" y="540" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-22" target="b5WYFroy9qsvkCAB5OgG-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-22" target="b5WYFroy9qsvkCAB5OgG-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.192;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-22" target="b5WYFroy9qsvkCAB5OgG-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-22" value="service discovery" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-24" value="chat server 1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="840" y="550" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-26" value="chat server 1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="750" y="550" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-27" value="chat server 1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="550" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
