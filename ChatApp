@@ -1,9 +1,12 @@
-<mxfile modified="2024-06-21T05:04:15.653Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="bTkIEgjRd2TPM39rsALi" version="24.5.5" type="github">
+<mxfile modified="2024-06-21T05:04:57.074Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HOIk1oYNx81NzdYmqaTW" version="24.5.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-1" value="- 1-1 / group chat&lt;div&gt;- 500 max number of members&lt;/div&gt;&lt;div&gt;- phone / browser based&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="90" width="250" height="470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
