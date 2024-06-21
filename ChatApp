@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-21T05:59:19.600Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ltpboEASEhlb6J8AcoFa" version="24.5.5" type="github">
+<mxfile modified="2024-06-21T06:00:46.990Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="gCO3GXAhNgpiNFpU3QtK" version="24.5.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
         <mxCell id="b5WYFroy9qsvkCAB5OgG-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-66" target="b5WYFroy9qsvkCAB5OgG-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-66" value="Message Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-66" value="Message Handler Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="965" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-72" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-66" target="b5WYFroy9qsvkCAB5OgG-37">
@@ -144,7 +144,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-81" value="Group Message Handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b5WYFroy9qsvkCAB5OgG-81" value="Group Message Handler Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1169" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-83" value="Group DB&lt;div&gt;id | user_id | timestamp&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
