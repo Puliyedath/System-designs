@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-21T05:16:03.864Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="64SlqNep9iWPQqzJG9AX" version="24.5.5" type="github">
+<mxfile modified="2024-06-21T05:18:30.231Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qiHR55UT_AOOXCtpfXC7" version="24.5.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,9 +8,6 @@
           <mxGeometry x="20" y="10" width="250" height="170" as="geometry" />
         </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-2" target="b5WYFroy9qsvkCAB5OgG-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5WYFroy9qsvkCAB5OgG-2" target="b5WYFroy9qsvkCAB5OgG-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-2" value="Client(user)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -30,15 +27,6 @@
         </mxCell>
         <mxCell id="b5WYFroy9qsvkCAB5OgG-9" value="User DB&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="510" y="650" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-13" value="Real time services" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="40" width="470" height="610" as="geometry" />
-        </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-16" value="Status Services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="200" width="140" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="b5WYFroy9qsvkCAB5OgG-17" value="Service Discovery" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="220" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
